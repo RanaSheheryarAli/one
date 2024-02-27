@@ -1,0 +1,205 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+}
+
+nav {
+    width: 78%;
+    margin: auto;
+    /* border: 1px solid white; */
+    height: 135px;
+    background-color: rgba(55, 55, 55, 255);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav1 {
+    width: 100%;
+    height: 90px;
+    border-radius: 10px;
+    /* border: 1px solid white; */
+}
+
+.logo {
+    display: inline-block;
+    width: 15%;
+    height: 90px;
+    /* border: 1px solid white; */
+}
+
+.logoimg {
+    width: 60%;
+    height: 80px;
+    /* border:  1px solid white; */
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+.serch {
+    width: 39%;
+    height: 90px;
+    display: inline-block;
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 0px;
+}
+
+.serchinput {
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid white; */
+    display: inline-block;
+
+}
+
+.serchinput input {
+    padding-left: 10px;
+    margin-left: 10px;
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.serchinput button {
+    width: 12%;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 33px;
+}
+
+#serchimg {
+    background-color: rgba(151, 0, 0, 0.7);
+    color: white;
+
+}
+
+.movietype {
+    display: inline-block;
+    position: absolute;
+    left: 65%;
+    width: 17%;
+    height: 90px;
+    /* border:  1px solid white; */
+}
+
+.movietpyebtn {
+    width: 45%;
+    height: 30px;
+    /* border: 1px solid white; */
+    display: inline-block;
+
+    margin-top: 30px;
+
+}
+
+.movietpyebtn button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(0, 0, 48, 0.7);
+    border: 0px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    color: white
+}
+
+.movietpyebtn button a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav2 {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(73, 73, 73, 255);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.box {
+    padding-top: 10px;
+    width: 14%;
+    height: 80%;
+    display: inline-block;
+    text-align: center;
+    border-right: 1px solid white;
+    /* position: absolute; */
+}
+
+.nav2 a {
+    font-size: 15px;
+    text-decoration: none;
+    padding-top: 10px;
+    /* padding: 20px; */
+    color: white;
+}
+
+#selmovies {
+    width: 15%;
+    background-color: rgba(55, 55, 55, 255);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+
+}
+
+#moviesbox {
+    width: 78%;
+    height: 2300px;
+    background-color: rgba(55, 55, 55, 255);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.moviescontent {
+
+
+    width: 180px !important;
+    height: 400px;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    background: #000000;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    position: relative;
+    border-radius: 5px;
+    display: block;
+    padding: 5px;
+    text-align: center;
+}
+
+.moviescontent img {
+    margin-left: 2px;
+    height: 250px;
+    width: 148px;
+
+
+}
+
+.moviescontent a {
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+
+}
+
+
+.whatapp{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 500px;
+    right: 50px;
+    border: 2px solid white;
+}
